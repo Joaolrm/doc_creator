@@ -6,9 +6,9 @@ class ViewConfig {
   static const String warning = "Aviso!";
   static const String confirm = "Aceitar";
 
-  static Color primaryColor = Colors.blue[900]!;
-  static Color secondaryColor = Colors.blue;
-  static Color thirdColor = Colors.white;
+  static Color primaryColor = const Color.fromARGB(255, 98, 0, 238);
+  static Color secondaryColor = const Color.fromARGB(255, 3, 218, 197);
+  static Color thirdColor = const Color.fromARGB(255, 255, 255, 255);
 
   static TextStyle textStyle = TextStyle(
     color: thirdColor,
